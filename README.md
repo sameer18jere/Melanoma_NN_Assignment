@@ -31,7 +31,7 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 - Vascular lesion
 
 ## Conclusions
-The class rebalance helped in reducing overfititng of the data and thus the loass is beng reduced But it reduced the Acurracy very low
+The class rebalance helped in reducing overfititng of the data and thus the loss is beng reduced But it reduced the Acurracy very low
 
 Initially we tried without the ImageDataGenerator which created data to over fit at high ratio
 
