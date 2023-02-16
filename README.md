@@ -31,13 +31,10 @@ The dataset consists of 2357 images of malignant and benign oncological diseases
 - Vascular lesion
 
 ## Conclusions
-The class rebalance helped in reducing overfititng of the data and thus the loss is beng reduced But it reduced the Acurracy very low
-
-Initially we tried without the ImageDataGenerator which created data to over fit at high ratio
-
-Then we introduced dropout and ImageDataGenerator which reduced the over fit
-
-At last we tried Batch Normalization and Augumentation which really helped in carry forward
+1) The class rebalance helped in reducing overfititng of the data and thus the loss is beng reduced. But it reduced the Acurracy very low
+2) Initially we tried without the ImageDataGenerator which created data to over fit at high ratio
+3) Then we introduced dropout and ImageDataGenerator which reduced the over fit
+4) At last we tried Batch Normalization and Augumentation which shows that the training accuracy and validation accuracy are very close, which suggests that the model may not be overfitting or underfitting. However, the accuracy is very low, which suggests that the model is not learning the patterns in the data very well.
 
 ## Technologies Used
 
